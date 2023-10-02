@@ -1,0 +1,555 @@
+{
+    "status": true,
+    "data": {
+      "flight_list": [
+        {
+          "id": 1,
+          "type": "flight",
+          "flight_from": "New York",
+          "flight_to": "Los Angeles",
+          "depart_date": "2023-10-15",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 2,
+            "children": 1,
+            "infants": 0,
+            "flight_class": "Economy"
+          }
+        },
+        {
+          "id": 2,
+          "type": "flight",
+          "flight_from": "London",
+          "flight_to": "Paris",
+          "depart_date": "2023-11-05",
+          "return_date": "2023-11-10",
+          "travelers": {
+            "adults": 1,
+            "children": 0,
+            "infants": 1,
+            "flight_class": "Business"
+          }
+        },
+        {
+          "id": 3,
+          "type": "flight",
+          "flight_from": "Sydney",
+          "flight_to": "Tokyo",
+          "depart_date": "2023-12-01",
+          "return_date": "2023-12-10",
+          "travelers": {
+            "adults": 3,
+            "children": 2,
+            "infants": 0,
+            "flight_class": "Economy"
+          }
+        },
+        {
+          "id": 4,
+          "type": "flight",
+          "flight_from": "San Francisco",
+          "flight_to": "New York",
+          "depart_date": "2023-10-08",
+          "return_date": "2023-10-15",
+          "travelers": {
+            "adults": 2,
+            "children": 0,
+            "infants": 1,
+            "flight_class": "Business"
+          }
+        },
+        {
+          "id": 5,
+          "type": "flight",
+          "flight_from": "Dubai",
+          "flight_to": "Singapore",
+          "depart_date": "2023-11-20",
+          "return_date": "2023-11-28",
+          "travelers": {
+            "adults": 2,
+            "children": 1,
+            "infants": 1,
+            "flight_class": "Economy"
+          }
+        },
+        {
+          "id": 6,
+          "type": "flight",
+          "flight_from": "Los Angeles",
+          "flight_to": "London",
+          "depart_date": "2023-12-05",
+          "return_date": "2023-12-15",
+          "travelers": {
+            "adults": 4,
+            "children": 0,
+            "infants": 0,
+            "flight_class": "Business"
+          }
+        },
+        {
+          "id": 7,
+          "type": "flight",
+          "flight_from": "Paris",
+          "flight_to": "Rome",
+          "depart_date": "2023-10-10",
+          "return_date": "2023-10-17",
+          "travelers": {
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "flight_class": "Economy"
+          }
+        },
+        {
+          "id": 8,
+          "type": "flight",
+          "flight_from": "Beijing",
+          "flight_to": "Sydney",
+          "depart_date": "2023-11-15",
+          "return_date": "2023-11-30",
+          "travelers": {
+            "adults": 2,
+            "children": 2,
+            "infants": 1,
+            "flight_class": "Business"
+          }
+        },
+        {
+          "id": 9,
+          "type": "flight",
+          "flight_from": "New Delhi",
+          "flight_to": "Bangkok",
+          "depart_date": "2023-12-10",
+          "return_date": "2023-12-20",
+          "travelers": {
+            "adults": 3,
+            "children": 1,
+            "infants": 0,
+            "flight_class": "Economy"
+          }
+        },
+        {
+          "id": 10,
+          "type": "flight",
+          "flight_from": "Tokyo",
+          "flight_to": "Hong Kong",
+          "depart_date": "2023-10-25",
+          "return_date": "2023-11-05",
+          "travelers": {
+            "adults": 2,
+            "children": 0,
+            "infants": 0,
+            "flight_class": "Business"
+          }
+        }
+      ],
+      "hotel_list": [
+        {
+          "id": 1,
+          "type": "hotel",
+          "hotel_location": "Hotel A",
+          "travel_date": "2023-10-15",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 0
+            },
+            {
+              "room_quantity": 2,
+              "adults": 1,
+              "children": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "hotel",
+          "hotel_location": "Hotel B",
+          "travel_date": "2023-11-05",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 0
+            },
+            {
+              "room_quantity": 1,
+              "adults": 1,
+              "children": 1
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "hotel",
+          "hotel_location": "Hotel C",
+          "travel_date": "2023-12-01",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 2,
+              "adults": 2,
+              "children": 2
+            },
+            {
+              "room_quantity": 1,
+              "adults": 1,
+              "children": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "hotel",
+          "hotel_location": "Hotel D",
+          "travel_date": "2023-10-08",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 2,
+              "adults": 2,
+              "children": 1
+            },
+            {
+              "room_quantity": 1,
+              "adults": 1,
+              "children": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "hotel",
+          "hotel_location": "Hotel E",
+          "travel_date": "2023-11-20",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 1
+            },
+            {
+              "room_quantity": 1,
+              "adults": 1,
+              "children": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "hotel",
+          "hotel_location": "Hotel F",
+          "travel_date": "2023-12-05",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 0
+            },
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "hotel",
+          "hotel_location": "Hotel G",
+          "travel_date": "2023-10-10",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 0
+            },
+            {
+              "room_quantity": 1,
+              "adults": 1,
+              "children": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "hotel",
+          "hotel_location": "Hotel H",
+          "travel_date": "2023-11-15",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 1,
+              "adults": 3,
+              "children": 1
+            },
+            {
+              "room_quantity": 2,
+              "adults": 2,
+              "children": 2
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "type": "hotel",
+          "hotel_location": "Hotel I",
+          "travel_date": "2023-12-10",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 0
+            },
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "type": "hotel",
+          "hotel_location": "Hotel J",
+          "travel_date": "2023-10-25",
+          "return_date": "2023-12-11",
+          "travelers": [
+            {
+              "room_quantity": 1,
+              "adults": 2,
+              "children": 0
+            },
+            {
+              "room_quantity": 1,
+              "adults": 1,
+              "children": 0
+            }
+          ]
+        }
+      ],
+      "car_list": [
+        {
+          "id": 1,
+          "type": "car",
+          "pick_up_from": "Airport",
+          "drop_off_to": "Hotel A",
+          "pick_up_date": "2023-10-15",
+          "pick_up_time": "10:00 AM",
+          "return_date": "2023-10-20",
+          "return_date_time": "12:00 PM"
+        },
+        {
+          "id": 2,
+          "type": "car",
+          "pick_up_from": "Hotel B",
+          "drop_off_to": "Tourist Attraction X",
+          "pick_up_date": "2023-11-05",
+          "pick_up_time": "11:30 AM",
+          "return_date": "2023-11-10",
+          "return_date_time": "03:00 PM"
+        },
+        {
+          "id": 3,
+          "type": "car",
+          "pick_up_from": "Train Station",
+          "drop_off_to": "Hotel C",
+          "pick_up_date": "2023-12-01",
+          "pick_up_time": "09:15 AM",
+          "return_date": "2023-12-10",
+          "return_date_time": "10:30 AM"
+        },
+        {
+          "id": 4,
+          "type": "car",
+          "pick_up_from": "Hotel D",
+          "drop_off_to": "Airport",
+          "pick_up_date": "2023-10-08",
+          "pick_up_time": "02:45 PM",
+          "return_date": "2023-10-15",
+          "return_date_time": "04:30 PM"
+        },
+        {
+          "id": 5,
+          "type": "car",
+          "pick_up_from": "Residential Address",
+          "drop_off_to": "Shopping Mall",
+          "pick_up_date": "2023-11-20",
+          "pick_up_time": "01:00 PM",
+          "return_date": "2023-11-28",
+          "return_date_time": "06:00 PM"
+        },
+        {
+          "id": 6,
+          "type": "car",
+          "pick_up_from": "Hotel E",
+          "drop_off_to": "Hotel F",
+          "pick_up_date": "2023-12-05",
+          "pick_up_time": "10:30 AM",
+          "return_date": "2023-12-15",
+          "return_date_time": "12:30 PM"
+        },
+        {
+          "id": 7,
+          "type": "car",
+          "pick_up_from": "Hotel G",
+          "drop_off_to": "Restaurant Y",
+          "pick_up_date": "2023-10-10",
+          "pick_up_time": "07:45 PM",
+          "return_date": "2023-10-17",
+          "return_date_time": "09:00 PM"
+        },
+        {
+          "id": 8,
+          "type": "car",
+          "pick_up_from": "Hotel H",
+          "drop_off_to": "Hotel I",
+          "pick_up_date": "2023-11-15",
+          "pick_up_time": "08:00 AM",
+          "return_date": "2023-11-30",
+          "return_date_time": "11:00 AM"
+        },
+        {
+          "id": 9,
+          "type": "car",
+          "pick_up_from": "Hotel J",
+          "drop_off_to": "Airport",
+          "pick_up_date": "2023-12-10",
+          "pick_up_time": "03:30 PM",
+          "return_date": "2023-12-20",
+          "return_date_time": "05:45 PM"
+        },
+        {
+          "id": 10,
+          "type": "car",
+          "pick_up_from": "Downtown",
+          "drop_off_to": "Hotel K",
+          "pick_up_date": "2023-10-25",
+          "pick_up_time": "11:15 AM",
+          "return_date": "2023-11-05",
+          "return_date_time": "01:30 PM"
+        }
+      ],
+      "tours_list": [
+        {
+          "id": 1,
+          "type": "tours",
+          "location": "Tour A",
+          "travel_date": "2023-10-15",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 2,
+            "children": 0
+          }
+        },
+        {
+          "id": 2,
+          "type": "tours",
+          "location": "Tour B",
+          "travel_date": "2023-11-05",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 1,
+            "children": 1
+          }
+        },
+        {
+          "id": 3,
+          "type": "tours",
+          "location": "Tour C",
+          "travel_date": "2023-12-01",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 2,
+            "children": 2
+          }
+        },
+        {
+          "id": 4,
+          "type": "tours",
+          "location": "Tour D",
+          "travel_date": "2023-10-08",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 3,
+            "children": 1
+          }
+        },
+        {
+          "id": 5,
+          "type": "tours",
+          "location": "Tour E",
+          "travel_date": "2023-11-20",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 2,
+            "children": 0
+          }
+        },
+        {
+          "id": 6,
+          "type": "tours",
+          "location": "Tour F",
+          "travel_date": "2023-12-05",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 2,
+            "children": 0
+          }
+        },
+        {
+          "id": 7,
+          "type": "tours",
+          "location": "Tour G",
+          "travel_date": "2023-10-10",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 1,
+            "children": 0
+          }
+        },
+        {
+          "id": 8,
+          "type": "tours",
+          "location": "Tour H",
+          "travel_date": "2023-11-15",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 3,
+            "children": 1
+          }
+        },
+        {
+          "id": 9,
+          "type": "tours",
+          "location": "Tour I",
+          "travel_date": "2023-12-10",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 2,
+            "children": 0
+          }
+        },
+        {
+          "id": 10,
+          "type": "tours",
+          "location": "Tour J",
+          "travel_date": "2023-10-25",
+          "return_date": "2023-10-20",
+          "travelers": {
+            "adults": 2,
+            "children": 0
+          }
+        }
+      ]
+    },
+    "message" :"Data fetch successfully."
+  }
+  
